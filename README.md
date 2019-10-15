@@ -40,11 +40,11 @@ ionic serve
 4. 対象のプロジェクトが立ち上がる
 
 ## サーバーサイド
-1. Expressディレクトリ内で下記を実行
+1. backendディレクトリ内で下記を実行
 ```
 knex migrate:latest
 ```
-2. Expressディレクトリ内で下記を実行
+2. backendディレクトリ内で下記を実行
 ```
 node index.js
 ```
